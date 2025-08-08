@@ -52,4 +52,36 @@ public class Evento {
 		this.endereco = endereco;
 	}
 
+//	public Comentario getComentario() {
+	// return comentario;
+	// }
+
+//	public void comentario(Comentario comentario) {
+	// this.comentario = comentario;
+//	}
+
+//	public Animal getAnimal() {
+	// return animal;
+	// }
+
+//	public void animal(Animal animal) {
+	// this.animal = animal;
+//	}
+
+//	public Foto getFoto() {
+	// return foto;
+	// }
+
+//	public void foto(Foto foto) {
+	// this.foto = foto;
+//	}
+
+//	public Avaliacao getAvaliacao() {
+	// return avaliacao;
+	// }
+
+//	public void avaliacao(Avaliacao avaliacao) {
+	// this.avaliacao = avaliacao;
+//	}
+
 }
