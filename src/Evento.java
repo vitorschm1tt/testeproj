@@ -52,6 +52,7 @@ public class Evento {
 		this.endereco = endereco;
 	}
 
+	
 //	public Comentario getComentario() {
 	// return comentario;
 	// }
