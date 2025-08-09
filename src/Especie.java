@@ -3,6 +3,7 @@ public class Especie {
 
 	private Long id;
 	private String nomeEspecie;
+	
 
 	public Long getId() {
 		return id;
@@ -22,6 +23,8 @@ public class Especie {
 
 	public Especie(Long id, String nomeEspecie) {
 
+		setId(id);
+		setNomeEspecie(nomeEspecie);
 	}
 
 }
