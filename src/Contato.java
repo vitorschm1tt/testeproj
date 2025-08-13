@@ -40,11 +40,11 @@ public class Contato {
 	}
 	
 	public String getInstragam() {
-		return instragram;
+		return instagram;
 	}
 	
 	public void setInstragram(String instragram) {
-		this.instragram = instragram;
+		this.instagram = instragram;
 	}
 	
 	
