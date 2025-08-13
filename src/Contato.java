@@ -12,13 +12,13 @@ public class Contato {
 		
 	}
 	
-	public Contato (Long id, String telefone, String instragram) {
+	public Contato (Long id, String telefone, String instagram) {
 		
 		this.id = id;
 		
 		this.telefone = telefone;
 		
-		this.instagram = instragram;
+		this.instagram = instagram;
 		
 	}
 	
@@ -39,12 +39,12 @@ public class Contato {
 		this.telefone = telefone;
 	}
 	
-	public String getInstragam() {
+	public String getInstagam() {
 		return instagram;
 	}
 	
-	public void setInstragram(String instragram) {
-		this.instagram = instragram;
+	public void setInstagram(String instagram) {
+		this.instagram = instagram;
 	}
 	
 	
