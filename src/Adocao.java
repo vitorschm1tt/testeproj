@@ -3,11 +3,12 @@ public class Adocao {
 
 	private Long id;
 	private String nomeAdotante;
-//	private Contato contatoAdocante;
-	
+	private Contato contatoAdotante;
+
 	public Adocao(Long id, String nomeAdocao) {
-		
+
 		setId(id);
+		setNomeAdotante(nomeAdotante);
 		setNomeAdotante(nomeAdotante);
 	}
 
@@ -26,19 +27,13 @@ public class Adocao {
 	public void setNomeAdotante(String nomeAdotante) {
 		this.nomeAdotante = nomeAdotante;
 	}
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+
+	public Contato getContatoAdocante() {
+		return contatoAdotante;
+	}
+
+	public void setContatoAdocante(Contato contatoAdocante) {
+		this.contatoAdotante = contatoAdocante;
+	}
+
 }
